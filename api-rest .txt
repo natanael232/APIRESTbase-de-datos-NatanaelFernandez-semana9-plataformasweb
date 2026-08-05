@@ -1,0 +1,22 @@
+ACTIVIDAD SUMATIVA - SEMANA 9
+Taller de Plataformas Web (CIB302)
+API REST con base de datos relacional 
+
+Estudiante: Natanael Fernandez
+Fecha: 05/08/26
+
+ENLACE AL REPOSITORIO GITHUB:
+https://github.com/natanael232/api-clientes-NatanaelFernandez-semana9-plataformasweb.git
+
+ENLACE AL VIDEO EXPLICATIVO:
+https://youtu.be/a7vC1xaDknQ
+
+RESUMEN TÉCNICO:
+- Backend: Node.js + Express
+- Base de datos: PostgreSQL, tabla "cliente" (id_cliente, nombre,
+  email único, telefono, created_at)
+- CRUD completo POST, GET (lista y por id), PUT, DELETE sobre /clientes
+- Seguridad: consultas parametrizadas ($1, $2...) en todo el código
++ más helmet y cors como middlewares de seguridad
+- Manejar errores: 400 datos inválidos, 404 id inexistente,
+  409 email duplicado, 500 error interno
